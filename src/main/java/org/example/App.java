@@ -12,6 +12,7 @@ public class App
     public static void main( String[] args )
     {
         Scanner scanner = new Scanner(System.in);
+        //Input
         System.out.print("Enter a noun: ");
         String noun = scanner.next();
         System.out.print("Enter a verb: ");
@@ -20,6 +21,8 @@ public class App
         String adjective = scanner.next();
         System.out.print("Enter an adverb: ");
         String adverb = scanner.next();
+
+        //Output
         System.out.println("I like to " + verb + " " + adverb + " when thinking about " + adjective + " " + noun + ".");
     }
 }
